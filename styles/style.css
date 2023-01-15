@@ -179,6 +179,10 @@ ul li {
     top: -133px;
 }
 
+.box_overflow {
+    padding: 45px 42px;
+}
+
 .features {
     margin-bottom: 20px;
     padding: 30px 42px 30px 30px;
@@ -239,7 +243,13 @@ ul li {
     border-radius: 8px;
     width: 242px;
     height: 242px;
-    /* transform: scale(0.5); */
+    transition: 0.5s ease-in-out;
+}
+
+.achieved_info_box:hover {
+    background-color: #ffb7646f;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 5px -1px 5px #FF900E;
 }
 
 .number_of_achievement {
@@ -303,7 +313,7 @@ ul li {
     text-align: center;
     background-color: #FF900E;
     border-radius: 8px;
-    margin: 130px 240px  60px 240px ;
+    margin: 130px 240px 60px 240px;
     padding: 50px 20px;
 
 }
@@ -341,12 +351,205 @@ ul li {
     text-align: center;
     background: #FFF4E7;
     border-radius: 8px;
-    margin: 130px 240px 216px 240px ;
-    padding: 40px ;
+    margin: 130px 240px 216px 240px;
+    padding: 40px;
 }
 
 /* ----------------
     Responsive
  ------------------*/
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width:576px) {
+    .page_header {
+        padding: 2px;
+    }
+
+    .logo_menu {
+        margin: 30px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar_holder {
+        padding: 5px;
+    }
+
+    .nav_link {
+        margin: 5px;
+        padding: 12px 5px;
+    }
+
+    .team_image {
+        width: 100%;
+    }
+
+    .banner_title {
+        font-size: 45px;
+        line-height: 55px;
+        padding-top: 5px;
+    }
+
+    .banner_description {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 27px 0;
+    }
+
+    /* QUICK TOUR */
+
+    .quick_tour_container {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .quick_tour_info {
+        text-align: center;
+        margin: 40px 40px 10px 40px;
+    }
+
+    .four_colums {
+        gap: 9px;
+        padding: 14px;
+        width: 85%;
+    }
+
+    .employees_photo {
+        width: 100%;
+    }
+
+    .primary_button {
+        margin-bottom: 5px;
+    }
+
+    /* lovely features */
+
+    .lovely_features {
+        padding: 50px 30px;
+        flex-direction: column-reverse;
+    }
+
+    .employee_image {
+        width: 100%;
+    }
+
+    .box_relative {
+        left: -24px;
+        top: -57px;
+        width: 157px;
+        height: 85px;
+    }
+
+    .box_overflow {
+        padding: 20px;
+    }
+
+    .ten_year {
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+    .exp {
+        font-size: 15px;
+    }
+
+    .lovely_features_title {
+        padding: 5px 2px 0 21px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .lovely_features_container {
+        margin-right: 0;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .features_name {
+        font-size: 19px;
+        line-height: 16px;
+        margin-bottom: 14px;
+    }
+
+    .features_description {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    /* Achievement Header */
+
+    .achivement_header {
+        text-align: center;
+        margin: 15px;
+    }
+
+    .achivements {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .achieved_info_box {
+        padding: 26px;
+        width: 210px;
+        height: 175px;
+        margin-bottom: 15px;
+    }
+
+    /* Our sponsors */
+
+    .sponsors_container {
+        margin-top: 60px;
+    }
+
+    .sponsors_text {
+        margin: 20px;
+    }
+
+    .our_sponsors {
+        flex-direction: column-reverse;
+        margin: 5px;
+    }
+
+    .sponsors_logos {
+        padding: 16px;
+    }
+
+    .subscribe_newsletter {
+        margin: 36px 0 0 0;
+        padding: 50px 20px;
+        border-radius: 0px;
+    }
+
+    .subscribe_newsletter_title {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .input_mail input {
+        text-align: center;
+        width: 90%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .input_mail button {
+        width: 96%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .page_footer{
+        padding: 40px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .copyright_text{
+        font-size: 0.8em;
+        line-height: 25px;
+    }
+}
