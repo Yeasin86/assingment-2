@@ -1,0 +1,287 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* -----------------
+    Header Styles 
+--------------------*/
+.page_header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+.name_logo {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav_link {
+    margin: 2px 0 0 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+}
+
+.banner_info {
+    text-align: center;
+}
+
+.banner_title {
+    padding-top: 116px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 32px 0;
+}
+
+.primary_button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.quick_tour_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 301px 130px 301px;
+
+}
+
+.four_colums {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick_tour_info {
+    margin-left: 73px;
+}
+
+.quick_tour_title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.quick_tour_title strong {
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick_tour_title span {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.quick_tour_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 32px 0;
+}
+
+.lovely_features {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 240px;
+}
+
+.lovely_features_container {
+    margin-right: 135px;
+}
+
+.lovely_features_title {
+    border-left: 5px solid #FF900E;
+    ;
+    padding: 0 146px 0 21px;
+    margin-bottom: 24px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.features_name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    color: #131313;
+
+}
+
+.features_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.box_relative {
+    text-align: center;
+    color: white;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    left: -75px;
+    top: -133px;
+}
+
+.features {
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.ten_year {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.exp {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* -----------------------
+    Achievements styles 
+-------------------------*/
+
+.achivement_header {
+    margin: 130px 1138px 100px 240px;
+}
+
+.achievement_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.achievement_short_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.achivements {
+    padding: 0 180px 290px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achieved_info_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 35px 60px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 242px;
+    height: 242px;
+    /* transform: scale(0.5); */
+}
+
+.number_of_achievement {
+    margin: 10px 0 5px 0;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.name_of_work {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -----------------------------
+    Sponsor Section Styles 
+-------------------------------*/
+.sponsors_text {
+    text-align: center;
+    margin: 0 689px ;
+}
+
+.sponsors_title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.sponsors_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* ----------------
+    Responsive
+ ------------------*/
+
+@media only screen and (max-width: 576px) {}
