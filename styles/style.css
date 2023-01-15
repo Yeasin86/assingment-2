@@ -262,7 +262,7 @@ ul li {
 -------------------------------*/
 .sponsors_text {
     text-align: center;
-    margin: 0 689px ;
+    margin: 0 689px;
 }
 
 .sponsors_title {
@@ -278,6 +278,71 @@ ul li {
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+}
+
+.our_sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 240px 150px 240px;
+}
+
+.sponsors_logos img {
+    display: block !important;
+}
+
+.sponsor_logo {
+    filter: grayscale(100%);
+}
+
+/* ----------------------------------------------------
+    News Letter Part - Extra Added By My Self Styles 
+-------------------------------------------------------*/
+.subscribe_newsletter {
+    color: white;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin: 130px 240px  60px 240px ;
+    padding: 50px 20px;
+
+}
+
+.subscribe_newsletter_title {
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.input_mail input {
+    width: 50%;
+    padding: 20px 10px;
+    border: none;
+    background: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.input_mail button {
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.669);
+    padding: 20px 30px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.312);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* footer styles */
+.page_footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 240px 216px 240px ;
+    padding: 40px ;
 }
 
 /* ----------------
